@@ -1,4 +1,4 @@
-/* --------------------------- NO TOCAR DESDE ACÁ --------------------------- */
+
 let datosPersona = {
   nombre: "",
   edad: 0,
@@ -31,7 +31,7 @@ const cambiarTema = document.querySelector('#cambiar-tema');
 profileBtn.addEventListener("click", renderizarDatosUsuario);
 materiasBtn.addEventListener("click", recorrerListadoYRenderizarTarjetas);
 cambiarTema.addEventListener("click", alternarColorTema);
-/* --------------------------- NO TOCAR HASTA ACÁ --------------------------- */
+
 
 
 
@@ -61,11 +61,11 @@ function obtenerDatosDelUsuario() {
 
 
 function renderizarDatosUsuario() {
-  /* ------------------- NO TOCAR NI ELIMINAR ESTA FUNCION. ------------------- */
+
 
   obtenerDatosDelUsuario();
 
-  /* --------------- PUNTO 2: Escribe tu codigo a partir de aqui --------------- */
+
   let nombre2 = document.getElementById('nombre');
   nombre2.textContent = datosPersona.nombre
 
@@ -88,7 +88,7 @@ let bandera = false;
 
 
 function recorrerListadoYRenderizarTarjetas() {
-  /* ------------------ PUNTO 3: Escribe tu codigo desde aqui ------------------ */
+
 
 
   
@@ -139,7 +139,7 @@ function recorrerListadoYRenderizarTarjetas() {
 };
 
 function alternarColorTema() {
-  /* --------------------- PUNTO 4: Escribe tu codigo aqui --------------------- */
+
 
   let cuerpo = document.getElementById('sitio');
 
@@ -148,7 +148,7 @@ function alternarColorTema() {
 
 }
 
-/* --------------------- PUNTO 5: Escribe tu codigo aqui --------------------- */
+
 
 let texto1 = document.getElementById('sobre-mi');
 let bandera1 = false;
